@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MemorySound.MenuPage"
+             Title="Меню">
+
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Spacing="30">
+
+        <Label Text="Memory Sound"
+               FontSize="32"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Button x:Name="BtnPlay"
+                Text="Играть"
+                FontSize="20"
+                WidthRequest="200"
+                HeightRequest="60"
+                Clicked="OnPlayClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

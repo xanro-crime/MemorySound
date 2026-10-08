@@ -7,8 +7,8 @@
     Title="MemorySound">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Меню"
+        ContentTemplate="{DataTemplate local:MenuPage}"
+        Route="MenuPage" />
 
 </Shell>
