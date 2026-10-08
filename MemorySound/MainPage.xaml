@@ -5,12 +5,12 @@
 
 
 
-    <Grid RowDefinitions ="*, *, *, *" ColumnDefinitions ="*, *">
+    <Grid RowDefinitions ="*, *" ColumnDefinitions ="*, *" RowSpacing="15" ColumnSpacing="15" Padding="15">
 
-    <Button BackgroundColor="LightPink" Grid.Row="2" Grid.Column="0" />
-    <Button BackgroundColor="LightGreen" Grid.Row="2" Grid.Column="1" />
-    <Button BackgroundColor="Orange" Grid.Row="3" Grid.Column="0" />
-    <Button BackgroundColor="DeepSkyBlue" Grid.Row="3" Grid.Column="1" />
+        <Button x:Name ="BtnRed" BackgroundColor="Red" Grid.Row="0" Grid.Column="0" Clicked="OnButtonClicked" />
+        <Button x:Name ="BtnGreen" BackgroundColor="Green" Grid.Row="0" Grid.Column="1" Clicked="OnButtonClicked"/>
+        <Button x:Name ="BtnBlue" BackgroundColor="Blue" Grid.Row="1" Grid.Column="0" Clicked="OnButtonClicked"/>
+        <Button x:Name ="BtnYellow" BackgroundColor="Yellow" Grid.Row="1" Grid.Column="1" Clicked="OnButtonClicked"/>
 
     </Grid>
 
